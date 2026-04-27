@@ -10,32 +10,33 @@ body {
 }
 
 h1 {
-  font-size: 60px;
   margin-bottom: 24px;
+  font-size: 60px;
 }
 h2 {
-  font-size: 36px;
   margin-bottom: 24px;
+  font-size: 36px;
 }
 h3 {
-  font-size: 30px;
   margin-bottom: 24px;
+  font-size: 30px;
 }
 h4 {
   font-size: 18px;
 }
 h5 {
-  font-size: 16px;
   margin-bottom: 4px;
+  font-size: 16px;
 }
 #hero,
 #about {
   width: 65%;
   margin: 80px auto;
 }
-
-/* ------------------------Hero section -------------*/
-
+.clr {
+  clear: both;
+}
+/* ------------------------Group these -------------*/
 #hero {
   text-align: center;
 }
@@ -51,8 +52,8 @@ h5 {
 }
 
 .description {
-  font-size: 20px;
   margin: 0 0 32px;
+  font-size: 20px;
   line-height: 32.5px;
   color: #4a5565;
 }
@@ -60,16 +61,16 @@ h5 {
 .info span {
   display: inline-block;
   padding: 16px 32px;
-  border-radius: 8px;
-  cursor: pointer;
   font-size: 18px;
   font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 span.start-now {
+  margin-right: 16px;
   background-color: black;
   color: white;
-  margin-right: 16px;
 }
 
 span.learn-more {
@@ -83,9 +84,6 @@ span.learn-more {
   border-radius: 16px;
 }
 
-.clr {
-  clear: both;
-}
 /* ------------------------Choose US section -------------*/
 
 .choose-us {
@@ -97,15 +95,15 @@ span.learn-more {
 .card {
   width: 30%;
   height: 266px;
-  text-align: center;
   padding: 32px;
-  border-radius: 16px;
+  text-align: center;
   float: left;
+  border-radius: 16px;
   border: 1px solid #bedbff;
 }
 .card h3 {
-  font-size: 20px;
   margin-bottom: 16px;
+  font-size: 20px;
 }
 .card-one,
 .card-two {
@@ -122,22 +120,22 @@ span.learn-more {
 }
 
 .card p {
-  color: #364153;
   font-size: 14px;
+  color: #364153;
 }
 .card .shape {
   width: 64px;
   height: 64px;
-  border-radius: 12px;
   margin: 0 auto 24px;
+  border-radius: 12px;
   background-color: blue;
 }
 .card .shape span {
+  display: inline-block;
   width: 32px;
   height: 32px;
-  background-color: white;
   margin: 16px auto 0;
-  display: inline-block;
+  background-color: white;
 }
 .card-one .shape {
   background-color: #155dfb;
