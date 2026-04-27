@@ -1,0 +1,394 @@
+/* ------------------------General Styles -------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+#hero,
+#about {
+  width: 65%;
+  margin: 80px auto;
+}
+
+/* ------------------------Hero section -------------*/
+
+#hero {
+  text-align: center;
+}
+
+#hero .info,
+#hero .image {
+  width: 50%;
+  float: left;
+}
+
+#hero .info {
+  text-align: left;
+}
+
+.description {
+  font-size: 20px;
+  margin: 0 0 32px;
+  line-height: 32.5px;
+  color: #4a5565;
+}
+
+.info span {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+span.start-now {
+  background-color: black;
+  color: white;
+  margin-right: 16px;
+}
+
+span.learn-more {
+  color: #364153;
+  border: 2px solid #d1d5db;
+}
+
+#hero img {
+  width: 384px;
+  height: 384px;
+  border-radius: 16px;
+}
+
+.clr {
+  clear: both;
+}
+/* ------------------------Choose US section -------------*/
+
+.choose-us {
+  text-align: center;
+}
+.cards {
+  margin: 24px 0 64px;
+}
+.card {
+  width: 30%;
+  height: 266px;
+  text-align: center;
+  padding: 32px;
+  border-radius: 16px;
+  float: left;
+  border: 1px solid #bedbff;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.card-one,
+.card-two {
+  margin-right: 16px;
+}
+.card-one {
+  background-color: #dbeafe;
+}
+.card-two {
+  background-color: #d1fae5;
+}
+.card-three {
+  background-color: #f3e8ff;
+}
+
+.card p {
+  color: #364153;
+  font-size: 14px;
+}
+.card .shape {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  margin: 0 auto 24px;
+  background-color: blue;
+}
+.card .shape span {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin: 16px auto 0;
+  display: inline-block;
+}
+.card-one .shape {
+  background-color: #155dfb;
+}
+.card-one .shape span {
+  border-radius: 8px;
+}
+.card-two .shape {
+  background-color: #009966;
+}
+.card-two .shape span {
+  border-radius: 50%;
+}
+.card-three .shape {
+  background-color: #9810fa;
+}
+.card-three .shape span {
+  border-radius: 4px;
+}
+
+.services img {
+  width: 552px;
+  height: 320px;
+  border-radius: 12px;
+}
+.services .service-item {
+  width: 50%;
+  float: left;
+}
+.service-item h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.service-item p {
+  font-size: 16px;
+  color: #4a5565;
+}
+.services .feature {
+  margin: 0 0 16px;
+  padding-left: 24px;
+  border-left: 4px solid #000;
+}
+/* ------------------------Testimonials -------------*/
+
+#testimonials {
+  text-align: center;
+  background-color: #f9fafb;
+  padding: 80px;
+}
+#testimonials h4 {
+  text-align: left;
+}
+
+#testimonials .member {
+  width: 32%;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #bedbff;
+  float: left;
+}
+#testimonials .member-header {
+  margin-bottom: 24px;
+}
+
+#testimonials .image,
+#testimonials .info {
+  float: left;
+}
+#testimonials .image img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.member > p {
+  font-size: 16px;
+  color: #364153;
+  line-height: 26px;
+  text-align: left;
+}
+.member-one {
+  background-color: #eff6ff;
+  border: 1px solid #bedbff;
+}
+.member-two {
+  background-color: #ecfdf5;
+  border: 1px solid #a4f4cf;
+}
+.member-two,
+.member-one {
+  margin-right: 16px;
+}
+.member-three {
+  background-color: #fdf4ff;
+  border: 1px solid #faf5ff;
+}
+.metrics {
+  width: 96%;
+  padding: 48px;
+
+  background-color: #f1f5f9;
+  border: 1px #e2e8f0;
+  border-radius: 12px;
+  margin-top: 64px;
+}
+.metrics .number {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.metrics .type {
+  color: #4a5565;
+}
+.metrics .metric-item {
+  width: 25%;
+  float: left;
+}
+/* ------------------------Membership form section -------------*/
+#membership-form {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+#membership-form .container {
+  background-color: #f9fafb;
+  width: 50%;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 16px;
+}
+#membership-form table {
+  width: 100%;
+}
+
+#membership-form table label {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #364153;
+}
+#membership-form table input,
+#membership-form table select,
+#membership-form table textarea {
+  padding: 16px 24px;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+#membership-form table input::placeholder,
+#membership-form table select,
+#membership-form table textarea::placeholder {
+  color: #a0aec0;
+  font-size: 16px;
+}
+#membership-form table select:valid {
+  color: black;
+}
+#membership-form label,
+#membership-form input {
+  display: block;
+  margin-bottom: 12px;
+}
+
+#membership-form td {
+  padding: 0 0 24px;
+}
+#membership-form button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #000;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+#membership-form p {
+  color: #4a5565;
+  font-size: 16px;
+}
+
+/* ------------------------Footer -------------*/
+
+footer {
+  padding: 80px 24px;
+  background-color: #101828;
+  color: white;
+}
+footer table {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+footer h3 {
+  margin-bottom: 16px;
+}
+footer td {
+  width: 30%;
+}
+footer .fitcore p,
+footer .social-links,
+.legal .copyright {
+  text-align: left;
+}
+footer .fitcore-info {
+  margin-bottom: 24px;
+}
+footer .fitcore-info {
+  color: #99a1af;
+  line-height: 29px;
+  font-size: 18px;
+}
+footer .fitcore span {
+  margin-right: 24px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a,
+.contact-info p {
+  font-size: 16px;
+  color: #99a1af;
+}
+footer .quick-links li {
+  margin-bottom: 12px;
+}
+.contact-info div {
+  margin-bottom: 12px;
+}
+.contact-info div p {
+  text-align: center;
+}
+footer .legal {
+  padding-top: 32px;
+  border-top: 1px solid #364153;
+}
+footer .legal div {
+  width: 49.8%;
+  display: inline-block;
+}
+
+footer .legal .legal-links {
+  text-align: right;
+}
+.legal .copyright,
+.legal a {
+  font-size: 14px;
+  color: #6a7282;
+}
